@@ -1,3 +1,13 @@
 body {
+  background: #f0ece2;
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
   background: #dfd3c3;
+  margin: 30px auto;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
