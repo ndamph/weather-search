@@ -44,6 +44,49 @@ header {
 main {
   margin: 20px 0;
 }
+
+.weather-conditions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-city {
+  margin: 0;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.current-conditions {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.current-conditions strong {
+  color: #596e79;
+}
+
+.current-temp {
+  display: flex;
+}
+
+.current-temp-value {
+  font-size: 75px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.current-temp-emoji {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.current-temp-unit {
+  font-size: 25px;
+  margin-top: 13px;
+  margin-left: 3px;
+}
 footer {
   border-top: 1px solid rgb(240, 236, 226, 0.6);
   padding-top: 20px;
