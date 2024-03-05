@@ -3,6 +3,10 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+a {
+  color: #596e79;
+  text-decoration: none;
+}
 .container {
   background: #dfd3c3;
   margin: 30px auto;
