@@ -12,6 +12,7 @@ header {
   border-bottom: 1px solid rgb(240, 236, 226, 0.6);
   padding-bottom: 20px;
 }
+
 .container {
   background: #dfd3c3;
   margin: 30px auto;
@@ -40,9 +41,13 @@ header {
   margin-left: 5px;
 }
 
+main {
+  margin: 20px 0;
+}
 footer {
   border-top: 1px solid rgb(240, 236, 226, 0.6);
   padding-top: 20px;
   text-align: center;
   font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
 }
