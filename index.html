@@ -15,9 +15,10 @@
   <body>
     <div class="container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             class="search-form-input"
+            id="city-input"
             type="search"
             placeholder="Enter city..."
             required
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-conditions">
           <div>
-            <h1 class="current-city">Winnipeg</h1>
+            <h1 class="current-city" id="city-value">Winnipeg</h1>
             <p class="current-conditions">
               Tuesday 12:29, broken clouds
               <br />
@@ -55,5 +56,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
