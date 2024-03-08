@@ -74,12 +74,11 @@ main {
 .current-temp-value {
   font-size: 75px;
   font-weight: 500;
-  margin-left: 10px;
 }
 
-.current-temp-emoji {
-  font-size: 40px;
-  margin-top: 20px;
+#temp-icon .current-temp-emoji {
+  width: 90px;
+  padding-bottom: 20px;
 }
 
 .current-temp-unit {

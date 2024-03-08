@@ -10,6 +10,9 @@ function showCityData(response) {
   let wind = response.data.wind.speed;
   let dateElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let tempIconElement = document.querySelector("#temp-icon");
+  let tempIcon = `<img src="${response.data.condition.icon_url}" class="current-temp-emoji"/>`;
+  console.log(response);
 
   cityValue.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
@@ -17,6 +20,7 @@ function showCityData(response) {
   humidityElement.innerHTML = humidity;
   windElement.innerHTML = wind;
   dateElement.innerHTML = formatDate(date);
+  tempIconElement.innerHTML = tempIcon;
 }
 
 function formatDate(date) {
