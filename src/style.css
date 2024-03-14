@@ -86,6 +86,25 @@ main {
   margin-top: 13px;
   margin-left: 3px;
 }
+
+.weather-forecast {
+  text-align: center;
+  margin: 20px;
+  width: 100px;
+}
+
+.weather-forecast-icon {
+  margin: 10px;
+}
+
+.weather-forecast-temp-separater {
+  opacity: 0.5;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.5;
+}
+
 footer {
   border-top: 1px solid rgb(240, 236, 226, 0.6);
   padding-top: 20px;
